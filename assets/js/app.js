@@ -2580,7 +2580,7 @@ $(document).ready(function () {
       focusOnSelect: true,
       swipeToSlide: true,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 8000,
       fade: true,
     })
     .on("beforeChange", function (event, slick, currentSlide, nextSlide) {
