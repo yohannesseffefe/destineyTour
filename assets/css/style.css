@@ -4066,6 +4066,8 @@ body .underline:hover:after {
 .why_box .title{
     font-size: 20px !important;
     font-weight: 500 !important;
+    text-align: center !important;
+    line-height: 22px !important;
 }
 .why_box p{
     font-size: 15px !important;
