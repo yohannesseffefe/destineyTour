@@ -1447,7 +1447,7 @@ body .underline:hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 14%;
+    width: 150px;
 }
 
 .-header .menu-box .logo img {
@@ -1775,8 +1775,8 @@ body .underline:hover:after {
 }
 
 .-header .comout-left-right .middle > div {
-    width: 90%;
-    margin-left: -45%;
+    width: 100%;
+    margin-left: -50%;
     left: 50%;
     position: absolute;
     font-size: 71.5px;
@@ -3282,7 +3282,7 @@ body .underline:hover:after {
 .common-left-content-right-image-layout .box .right .img,.common-left-content-right-image-layout .box .left .img {
     width: 100%;
     position: relative;
-    max-height: 833px;
+    max-height: 733px;
     max-width: 624px;
 }
 
@@ -3922,7 +3922,7 @@ body .underline:hover:after {
 }
 
 .common-needle-and-thread .box {
-    width: 950px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -4054,13 +4054,13 @@ body .underline:hover:after {
 }
 .why_box
 {
-    width: calc(50% - 50px) ;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
     gap: 20px;
+    
     
 }
 .why_box .title{
@@ -4298,6 +4298,7 @@ body .underline:hover:after {
         font-size: 44px;
         font-weight: 700;
         line-height: 52.8px;
+
         /* text-align: left; */
     }
 }
@@ -12456,6 +12457,10 @@ fieldset,
 
 /*less than  600px  do */
 @media (max-width: 600px) {
+    .why_box
+{
+    width: 100%;
+}
     .container {
         width: 100%;
         padding: 0 15px;
